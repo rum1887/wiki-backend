@@ -1,8 +1,8 @@
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routers.auth import router as auth_router 
-from .routers.wiki import router as wiki_router
+from routers.auth import router as auth_router 
+from routers.wiki import router as wiki_router
 from fastapi import Request
 import time
 from fastapi import Depends
