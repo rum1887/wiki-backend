@@ -1,13 +1,13 @@
 from fastapi import APIRouter, Depends, Query, Body, HTTPException
-from ..auth.auth_handler import get_current_active_user
-from ..wiki_article.article_fetch import search_wikipedia
-from ..schemas import UserResponse, WikiArticleSchema
-from ..models import User, WikiArticle, UserArticleTag, bookmarks
+from auth.auth_handler import get_current_active_user
+from wiki_article.article_fetch import search_wikipedia
+from schemas import UserResponse, WikiArticleSchema
+from models import User, WikiArticle, UserArticleTag, bookmarks
 from sqlalchemy.orm import Session, joinedload
-from ..database import get_db
+from database import get_db
 from typing import List
 from urllib.parse import unquote
-from ..llm import generate_tags
+from llm import generate_tags
 
 import logging
 
