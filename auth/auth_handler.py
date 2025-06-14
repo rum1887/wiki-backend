@@ -7,9 +7,9 @@ from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 from sqlalchemy.orm import Session
 import os
-from ..database import get_db
-from ..schemas import TokenData
-from ..models import User
+from database import get_db
+from schemas import TokenData
+from models import User
 
 # to get a string like this SECRET_KEY = "7db6679f449efb639e7e3880be040b435f9ad966c767d53f73ab1ba4bf925f7c" for secret key run:
 # openssl rand -hex 32 
