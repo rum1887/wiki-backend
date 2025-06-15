@@ -15,6 +15,8 @@ app = FastAPI(debug=True)
 
 origins = [
     "http://localhost:5173",
+    "https://wiki-tagging-frontend.onrender.com",
+    "https://wiki-frontend-4ab7.onrender.com"  
 ]
 
 app.add_middleware(
