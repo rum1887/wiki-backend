@@ -4,7 +4,7 @@ save and tag wiki articles
 # Run locally
 
 ``` python
-cd backend
+cd wiki-backend
 ```
 
 ``` python
