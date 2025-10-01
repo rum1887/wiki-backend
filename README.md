@@ -3,10 +3,10 @@ save and tag wiki articles
 
 # Run locally
 
-''' python
+``` python
 cd backend
-'''
+```
 
-''' python
+``` python
 fastapi dev app.py
-'''
+```
