@@ -3,8 +3,10 @@ save and tag wiki articles
 
 # Run locally
 
-'''python
-cd backend'''
+''' python
+cd backend
+'''
 
-'''python
-fastapi dev app.py'''
+''' python
+fastapi dev app.py
+'''
